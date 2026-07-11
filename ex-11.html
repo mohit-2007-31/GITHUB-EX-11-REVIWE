@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Engineering Department | SAKEC</title>
+    <style>
+        :root {
+            --primary: #004d99;
+            --secondary: #003366;
+            --bg-light: #f4f7f6;
+            --text-dark: #333;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; color: var(--text-dark); background-color: var(--bg-light); line-height: 1.6; }
+        
+        /* Navigation */
+        nav { background: var(--primary); color: white; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+        nav h1 { margin: 0; font-size: 1.5rem; }
+        nav ul { list-style: none; display: flex; gap: 1.5rem; margin: 0; padding: 0; }
+        nav a { color: white; text-decoration: none; font-weight: 500; }
+        nav a:hover { text-decoration: underline; }
+
+        /* Header */
+        header { background: white; text-align: center; padding: 4rem 2rem; border-bottom: 4px solid var(--primary); }
+        header h2 { font-size: 2.5rem; color: var(--secondary); margin-bottom: 0.5rem; }
+        header p { font-size: 1.2rem; color: #666; }
+
+        /* Sections */
+        section { padding: 3rem 5%; background: white; margin-bottom: 1rem; }
+        section:nth-child(even) { background: var(--bg-light); }
+        h3 { color: var(--primary); border-bottom: 2px solid var(--primary); padding-bottom: 0.5rem; margin-bottom: 1.5rem; font-size: 1.8rem; }
+        
+        /* Tables & Lists */
+        table { width: 100%; border-collapse: collapse; margin-top: 1rem; background: white; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: var(--primary); color: white; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 0.5rem; }
+
+        /* Footer */
+        footer { background: var(--secondary); color: white; text-align: center; padding: 1.5rem; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h1>CompEng Dept</h1>
+        <ul>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#labs">Laboratories</a></li>
+            <li><a href="#syllabus">Syllabus</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#placements">Placements</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h2>Computer Engineering Department</h2>
+        <p>Shah & Anchor Kutchhi Engineering College (SAKEC)</p>
+        <p>Empowering the next generation of software engineers and system architects.</p>
+    </header>
+
+    <section id="faculty">
+        <h3>Faculty Members</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>Specialization</th>
+            </tr>
+            <tr>
+                <td>Dr. A. Sharma</td>
+                <td>Head of Department</td>
+                <td>Artificial Intelligence & Machine Learning</td>
+            </tr>
+            <tr>
+                <td>Prof. R. Desai</td>
+                <td>Associate Professor</td>
+                <td>Data Structures & Algorithms</td>
+            </tr>
+            <tr>
+                <td>Prof. K. Iyer</td>
+                <td>Assistant Professor</td>
+                <td>Embedded Systems & Robotics</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="labs">
+        <h3>Laboratories</h3>
+        <ul>
+            <li><strong>Software Engineering Lab:</strong> Equipped with latest Intel i7 systems, used for Web Development and App Design.</li>
+            <li><strong>Hardware & Robotics Lab:</strong> Features Arduino kits, IR sensors, motor drivers, and oscilloscopes for practical embedded system designs.</li>
+            <li><strong>Database Management Lab:</strong> Dedicated servers for running heavy SQL, MongoDB, and Big Data queries.</li>
+        </ul>
+    </section>
+
+    <section id="syllabus">
+        <h3>Syllabus Overview (First Year - FYCM1-B)</h3>
+        <ul>
+            <li><strong>Engineering Physics & Chemistry:</strong> Semiconductors, cooling fins, biomedical shape memory alloys.</li>
+            <li><strong>Engineering Mathematics:</strong> Advanced numerical modeling, Runge-Kutta method.</li>
+            <li><strong>Basic Electrical & Electronics:</strong> Circuit design, logic gates (High/Low logic).</li>
+            <li><strong>Computer Programming:</strong> Fundamentals of C programming, control structures, and pointers.</li>
+        </ul>
+    </section>
+
+    <section id="achievements">
+        <h3>Departmental Achievements</h3>
+        <ul>
+            <li>Organized successful technical and communication workshops, including events for the Speakers Club ("The Stage Is All Yours").</li>
+            <li>Developed impactful community software solutions like the "Local Alliance Navigator" for SDG-17.</li>
+            <li>Published extensive reports on the social impact of technology, including digital responsibility and cyberbullying.</li>
+        </ul>
+    </section>
+
+    <section id="placements">
+        <h3>Placement Statistics (2025-2026)</h3>
+        <table>
+            <tr>
+                <th>Company</th>
+                <th>Roles Offered</th>
+                <th>Students Placed</th>
+            </tr>
+            <tr>
+                <td>Tech Mahindra</td>
+                <td>Software Development Engineer</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>TCS (Digital)</td>
+                <td>Systems Engineer</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>L&T Infotech</td>
+                <td>Cloud Associate</td>
+                <td>28</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Computer Engineering Department. <br> Maintained by the Web Team: Mohit, Praneel, and Sakshi.</p>
+    </footer>
+
+</body>
+</html>
